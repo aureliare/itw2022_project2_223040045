@@ -1,0 +1,24 @@
+.justify-content-evenly {
+  padding-top: 50px;
+  background-color: #ececec;
+}
+
+.clearfix {
+  padding-top: 80px;
+}
+
+.tilt {
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+.tilt h5,
+.tilt a {
+  transform: translateZ(20px);
+}
+.tilt p {
+  transform: translateZ(70px);
+}
+
+.content {
+  background-image: url(/img/bghome.jpg);
+}
